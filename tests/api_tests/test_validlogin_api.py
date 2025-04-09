@@ -11,7 +11,7 @@ def get_headers():
 
 def test_login_valid_credentials(get_headers):
     """Test login with valid email and password"""
-    payload = {"email": "test@gmail.com", "password": "Kishan@1"}
+    payload = {"email": "example@gmail.com", "password": "********"}
 
     response = requests.post(f"{BASE_URL}/auth/login", data=payload, headers=get_headers)
 
