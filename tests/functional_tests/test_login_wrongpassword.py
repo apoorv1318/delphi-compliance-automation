@@ -11,7 +11,7 @@ def test_valid_email_wrong_password():
         page.goto("https://compliance.whyqtech.com/#/login")
 
         # Enter valid email and wrong password
-        page.fill("[formcontrolname='email']", "test@gmail.com")
+        page.fill("[formcontrolname='email']", "exampletest@gmail.com")
         page.fill("[formcontrolname='password']", "WrongPassword123")
 
         # Click Sign In
