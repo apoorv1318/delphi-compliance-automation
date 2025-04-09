@@ -9,10 +9,10 @@ def test_valid_login():
         page.goto("https://compliance.whyqtech.com/#/login")
 
         # Fill in the email field
-        page.fill("[formcontrolname='email']", "test@gmail.com")
+        page.fill("[formcontrolname='email']", "*****@gmail.com")
 
         # Fill in the password field
-        page.fill("[formcontrolname='password']", "Kishan@1")
+        page.fill("[formcontrolname='password']", "*******")
 
         # Click the Sign In button and wait for the page to load
         page.click("button[type='submit']")
