@@ -14,7 +14,7 @@ def test_wrong_email_valid_password():
 
         # Enter wrong email and valid password
         page.fill("[formcontrolname='email']", "wrongemail@example.com")
-        page.fill("[formcontrolname='password']", "Kishan@1")
+        page.fill("[formcontrolname='password']", "********")
 
         # Click Sign In
         page.click("button[type='submit']")
